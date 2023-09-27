@@ -1,2 +1,2 @@
 ### Hi there 👋
-This is your one-stop-shop for anythign Radi-Ant! Enjoy your stay, pal!
+This is your one-stop-shop for anything Radi-Ant! Enjoy your stay, pal!
