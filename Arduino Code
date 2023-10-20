@@ -1,0 +1,20 @@
+#include <Servo.h>
+
+Servo leftMotor;
+Servo rightMotor;
+
+void setup() {
+  leftMotor.attach(9);  // attaches the servo on pin 9 to the servo object
+  rightMotor.attach(10); // attaches the servo on pin 10 to the servo object
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  while(true){  
+    leftMotor.write(180);  //run the left servo full speed forward 
+    rightMotor.write(0); //run the right servo full speed forward
+    delay(2000);
+    leftMotor.write(90);
+    rightMotor.write(90);
+  }
+}
